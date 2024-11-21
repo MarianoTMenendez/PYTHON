@@ -1,0 +1,53 @@
+/* body es estilo para el cuerpo */
+body {
+  background-color: darkgrey;
+  background-image: url("Accesories/Foto mia.png"), url("Accesories/Miller.png"); /* meti 2 backs uno izq uno der */
+  background-repeat: repeat-y, repeat-y;
+  background-position: left top, right top;
+}
+
+/* header es estilo para el titulo */
+header {
+  background-color: lightgrey;
+  text-align: center; /* creo q es como centrar texto en word */
+  font-size: 36px; /* Aumenta el tamaño del texto */
+  color: black; /* letras */
+  border-style: double; /* border box doble */
+  padding: 5px; /* espacio entre background y texto */
+  margin: 10px auto; /* 10 es el espaciado entre parrafos, auto hace q el texto spawnee en el centro de la pagina */
+  width: fit-content; /* Ajusta el fondo al texto */
+  display: block; /* hace q haya un p unico por linea */
+}
+
+/* p es estilo para los párrafos */
+p {
+  background-color: lightgrey;
+  padding: 5px;
+  margin: 10px auto;
+  width: fit-content;
+  display: block;
+}
+
+
+/* parrafo 1. pq no se usa nth child(1) para este? */
+/* q verga es la diferencia entre header y p? */
+p {
+  text-align: center;
+  color: red;
+} 
+/* Bordes dobles para el primer parrafo */
+p.double {border-style: double;}
+
+
+p:nth-child(2) {
+  color: blue;
+}
+
+p:nth-child(3) {
+  color: yellow;
+}
+
+p:nth-child(4) {
+  color: green;
+}
+/* el style es lo de css se hace antes que el body */
