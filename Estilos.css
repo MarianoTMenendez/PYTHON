@@ -20,7 +20,10 @@ header {
 }
 
 /* p es estilo para los párrafos */
+/* parrafo 1. pq no se usa nth child(1) para este? */
 p {
+  text-align: center;
+  color: red;
   background-color: lightgrey;
   padding: 5px;
   margin: 10px auto;
@@ -28,26 +31,10 @@ p {
   display: block;
 }
 
-
-/* parrafo 1. pq no se usa nth child(1) para este? */
-/* q verga es la diferencia entre header y p? */
-p {
-  text-align: center;
-  color: red;
-} 
 /* Bordes dobles para el primer parrafo */
 p.double {border-style: double;}
-
-
-p:nth-child(2) {
-  color: blue;
+p.Blue {
+color: blue;
 }
 
-p:nth-child(3) {
-  color: yellow;
-}
-
-p:nth-child(4) {
-  color: green;
-}
 /* el style es lo de css se hace antes que el body */
